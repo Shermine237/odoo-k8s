@@ -24,7 +24,7 @@ spec:
             - name: PORT
               value: "30007"
             - name: POSTGRES_DB
-              value: postgres
+              value: odoo-db
             - name: POSTGRES_USER
               value: odoo
             - name: POSTGRES_PASSWORD
