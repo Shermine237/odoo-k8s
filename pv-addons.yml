@@ -11,7 +11,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
-  storageClassName: storageclass-odoo-addons
+  storageClassName: storageclass-odoo
   local:
     path: /run/desktop/mnt/host/c/Users/HP/Desktop/Odoo/volume/addons
   nodeAffinity:
