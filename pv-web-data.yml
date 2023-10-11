@@ -13,7 +13,7 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   storageClassName: storageclass-odoo
   local:
-    path: /run/desktop/mnt/host/c/Users/HP/Desktop/Odoo/volume/web-data
+    path: /run/desktop/mnt/host/c/Users/HP/Desktop/Odoo/odoo-k8s/volume/web-data
   nodeAffinity:
     required:
       nodeSelectorTerms:
