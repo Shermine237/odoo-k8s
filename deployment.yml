@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: odoo-app
+  name: odoo-deployment
 spec:
   replicas: 1
   selector:
@@ -9,11 +9,12 @@ spec:
       app: odoo-app
   template:
     metadata:
+      name: odoo-pod
       labels:
         app: odoo-app
     spec:
       containers:
-        - name: odoo-app
+        - name: odoo-container
           image: odoo:16
           ports:
             - containerPort: 8069
