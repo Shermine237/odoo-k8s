@@ -30,8 +30,8 @@ spec:
               value: postgres.local
             - name: PORT
               value: "30007"
-            - name: POSTGRES_DB
-              value: odoo-db
+#            - name: POSTGRES_DB  [Will be automaticaly create]
+#              value: odoo-db
             - name: POSTGRES_USER
               value: odoo
             - name: POSTGRES_PASSWORD
